@@ -100,7 +100,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_day_hash.each do |holiday_day, supplies|
       binding.pry
       if supplies.include? == "BBQ"
-        bbq_arr << holiday_day
+      ##  bbq_arr << holiday_day
       end
     end
   end
