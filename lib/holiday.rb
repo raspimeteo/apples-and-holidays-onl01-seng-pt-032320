@@ -79,8 +79,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   def capitalize_words(string)
-  string.gsub(/\S+/, &:capitalize)
-end
+    string.gsub(/\S+/, &:capitalize)
+  end
   holiday_hash.each do |season, holiday_day_hash|
     puts "#{season.capitalize}:"
     holiday_day_hash.each do |holiday, holiday_supplies|
