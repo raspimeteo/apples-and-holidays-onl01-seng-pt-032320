@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
     
      holiday_day_hash.each do|holiday, supplies| print "  #{key.capitalize}:"
      ## binding.pry
-       for (i=0, i<supplies.length, i++) do
+       for {i=0, i<supplies.length, i++} do
          print supplies[i]
        end
      end
